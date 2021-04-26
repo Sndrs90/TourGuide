@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Penza Tour Guide</string>
+    <string name="category_sights">Sights</string>
+    <string name="category_events">Events</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_food">Food</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/sights_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/rostok"
+                style="@style/ImageOnMain"
+                android:src="@drawable/rostok" />
+
+            <TextView
+                style="@style/TextOnMain"
+                android:layout_alignLeft="@+id/rostok"
+                android:layout_alignTop="@+id/rostok"
+                android:layout_alignRight="@+id/rostok"
+                android:layout_alignBottom="@+id/rostok"
+                android:text="@string/category_sights" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/events_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/jazz_may"
+                style="@style/ImageOnMain"
+                android:src="@drawable/jazz_may" />
+
+            <TextView
+                style="@style/TextOnMain"
+                android:layout_alignLeft="@+id/jazz_may"
+                android:layout_alignTop="@+id/jazz_may"
+                android:layout_alignRight="@+id/jazz_may"
+                android:layout_alignBottom="@+id/jazz_may"
+                android:text="@string/category_events" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/hotels_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/heliopark"
+                style="@style/ImageOnMain"
+                android:src="@drawable/heliopark" />
+
+            <TextView
+                style="@style/TextOnMain"
+                android:layout_alignLeft="@+id/heliopark"
+                android:layout_alignTop="@+id/heliopark"
+                android:layout_alignRight="@+id/heliopark"
+                android:layout_alignBottom="@+id/heliopark"
+                android:text="@string/category_hotels" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/food_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/zaseka"
+                style="@style/ImageOnMain"
+                android:src="@drawable/zaseka" />
+
+            <TextView
+                style="@style/TextOnMain"
+                android:layout_alignLeft="@+id/zaseka"
+                android:layout_alignTop="@+id/zaseka"
+                android:layout_alignRight="@+id/zaseka"
+                android:layout_alignBottom="@+id/zaseka"
+                android:text="@string/category_food" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
